@@ -29,7 +29,7 @@ test_requirements = [
 
 setup(
     name='timee',
-    version='0.1.0',
+    version='0.1.1',
     description="Datetime library",
     long_description=readme + '\n\n' + history,
     author="Eyal Levin",
