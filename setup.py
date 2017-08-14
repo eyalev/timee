@@ -12,8 +12,9 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-    'Click>=6.0',
-    # TODO: put package requirements here
+    'click==6.7',
+    'maya==0.3.2',
+    'pytimeparse==1.1.6'
 ]
 
 setup_requirements = [

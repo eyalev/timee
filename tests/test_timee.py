@@ -7,7 +7,7 @@ import pytest
 from click.testing import CliRunner
 from freezegun import freeze_time
 from timee import cli
-from timee.timee import timee_parse, timee_parse_duration
+from timee.timee_core import timee_parse, timee_parse_duration
 
 
 @freeze_time("2017-02-15")
