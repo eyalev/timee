@@ -1,5 +1,5 @@
 =====
-timee
+Timee
 =====
 
 
@@ -9,32 +9,23 @@ timee
 .. image:: https://img.shields.io/travis/eyalev/timee.svg
         :target: https://travis-ci.org/eyalev/timee
 
-.. image:: https://readthedocs.org/projects/timee/badge/?version=latest
-        :target: https://timee.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
 .. image:: https://pyup.io/repos/github/eyalev/timee/shield.svg
      :target: https://pyup.io/repos/github/eyalev/timee/
      :alt: Updates
 
 
-Datetime library
-
-
-* Free software: MIT license
-* Documentation: https://timee.readthedocs.io.
-
-
-Features
+Overview
 --------
 
-* TODO
+A library that should make dealing with datetimes and timezones more easy.
 
-Credits
----------
 
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+Examples
+--------
 
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+.. code-block:: python
+
+    >>> timee_dt = timee_parse('1 week ago')
+    >>> timee_dt.basic_string
+    '2017-02-08 00:00:00'
 
