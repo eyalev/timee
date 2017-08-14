@@ -17,7 +17,7 @@ Timee
 Overview
 --------
 
-A library that should make dealing with datetimes and timezone more easy.
+A library that should make dealing with datetimes and timezones more easy.
 
 
 Examples
