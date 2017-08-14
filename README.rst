@@ -1,5 +1,5 @@
 =====
-timee
+Timee
 =====
 
 
@@ -14,7 +14,10 @@ timee
      :alt: Updates
 
 
-Datetime library
+Overview
+--------
+
+A library that should make dealing with datetimes and timezone more easy.
 
 
 Examples
@@ -24,5 +27,5 @@ Examples
 
     >>> timee_dt = timee_parse('1 week ago')
     >>> timee_dt.basic_string
-    2017-02-08 00:00:00
+    '2017-02-08 00:00:00'
 
